@@ -1,11 +1,11 @@
-###Задача 1 Маршрутка
+### Задача 1 – Маршрутка
 ```n = int(input())
 ueh = n // 15 * 15
 ost = n - ueh
 print (ueh, ost)
 ```
 
-###Задача 2 Сумма половин
+### Задача 2 – Сумма половин
 ```n = input()
 k = len(n) // 2
 first = int(n[:k])
@@ -13,34 +13,34 @@ second = int(n[k:])
 print(first + second)
 ```
 
-###Задача 3 Жажда
+### Задача 3 – Жажда
 ```n = int(input())
 woter = n / 3
 print(f"{woter:.3f}")
 ```
 
-###Задача 4 Рубли и копейки
+### Задача 4 – Рубли и копейки
 ```price = float(input())
 rub = int(price)
 kop = round((price - rub) * 100)
 print(rub, "rub", kop, "kop")
 ```
 
-###Задача 5 Отчет
+### Задача 5 – Отчет
 ```n, m, c, k = map(int, input().split())
 a = n * m - k
 b = (a + 199) // 200
 print(b * c)
 ```
 
-###Задача 6 Подарки
+### Задача 6 – Подарки
 ```n, m, k = map(int, input().split())
 vsk = n * m
 box = (vsk + k - 1) // k
 print(box)
 ```
 
-###Задача 7 Датчик пульса
+### Задача 7 – Датчик пульса
 ```n, t = input().split()
 n = int(n)
 t = float(t)
@@ -48,7 +48,7 @@ hit = n * 60 / t
 print(int(hit) if hit == int(hit) else int(hit) + 1)
 ```
 
-###Задача 8 Точки на прямой
+### Задача 8 – Точки на прямой
 ```import math
 x, y = map(float, input().split())
 a = math.ceil(x)
@@ -57,7 +57,7 @@ print(b - a + 1)
 ```
 
 
-###Задача 9 Буквы и цифры
+### Задача 9 – Буквы и цифры
 ```s = input()
 sum = 0
 for i in s:
@@ -66,7 +66,7 @@ for i in s:
 print(sum)
 ```
 
-###Задача 10 Скобки в зазеркалье
+### Задача 10 – Скобки в зазеркалье
 ```s = input()
 a = ""
 for i in s:
@@ -77,7 +77,7 @@ for i in s:
 print(a)
 ```
 
-###Задача 12 Минимальные делители
+### Задача 12 – Минимальные делители
 ```s = input().split()
 for i in s:                                                                 
     n = int(i)
@@ -87,7 +87,7 @@ for i in s:
     print(a, end=" ")
 ```
 
-###Задача 13 Сумма делителей
+### Задача 13 – Сумма делителей
 ```n = int(input())
 sum = 0
 for i in range(1, n):
@@ -96,7 +96,7 @@ for i in range(1, n):
 print(sum)
 ```
 
-###Задача 14 Игра в пробке
+### Задача 14 – Игра в пробке
 ```n = int(input())
 masha = 0
 dasha = 0
@@ -109,7 +109,7 @@ for i in range(n):
 print(str(masha) + ":" + str(dasha))
 ```
 
-###Задача 15 Прибыль
+### Задача 15 – Прибыль
 ```n = int(input())
 allp = 0
 for i in range(n):
